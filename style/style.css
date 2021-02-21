@@ -340,7 +340,7 @@ body.lock {
   }
   .container {
     width:  auto;
-    padding: 5px;
+    padding: 10px;
   }
   .line {
     display: none;
@@ -505,7 +505,25 @@ margin-bottom: 10px;
     width: 100%;
   }
 }
-
+@media(max-width:450px) {
+  .list-books__book__photo {
+    padding-right: 10px;
+  }
+  .list-books__book__photo img{
+    width: 133px;
+    height: 188px;
+  }
+  .list-books__book__text_btns {
+    flex-direction: column;
+    width: 100px;
+  }
+  .btn {
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
 .films {
   position: relative;
   height: 950px;
@@ -624,6 +642,10 @@ line-height: 18px;
   }
 }
 @media(max-width: 530px) { 
+  .comments__items__item {
+    width: 280px;
+    margin: 10px;
+  }
   .films-items_item01 {
     position: relative;
     top: 0px;
