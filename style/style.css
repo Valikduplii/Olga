@@ -623,3 +623,44 @@ line-height: 18px;
     height: 250px;
   }
 }
+@media(max-width: 530px) { 
+  .films-items_item01 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .films-items_item01 img{
+    width: 95%;
+    height: auto;
+  }
+  .films-items_item02 img{
+    width: 95%;
+    height: auto;
+  }
+  .films-items_item02 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .films-items_item03 img{
+    width: 95%;
+    height: auto;
+  }
+  .films-items_item03 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .films-items_item04 img{
+    width: 95%;
+    height: auto;
+  }
+  .films-items_item04 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .films {
+    height: auto;
+  }
+}
